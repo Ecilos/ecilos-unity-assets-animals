@@ -13,7 +13,7 @@ public class livingBirdsDemoScript : MonoBehaviour {
 
 	void Start(){
 		currentCamera = Camera.main;
-		//birdControl = GameObject.Find ("_livingBirdsController").GetComponent<lb_BirdController>();
+		birdControl = GameObject.Find ("BirdsController").GetComponent<lb_BirdController>();
 		SpawnSomeBirds();
 	}
 

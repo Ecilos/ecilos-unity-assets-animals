@@ -115,6 +115,7 @@ public class lb_BirdController : MonoBehaviour {
 			}else{
 				bird = Resources.Load (myBirdTypes[Random.Range (0,myBirdTypes.Count)],typeof(GameObject)) as GameObject;
 			}
+			// @todo: Handle exceptions: ArgumentException: The Object you want to instantiate is null.
 			myBirds[i] = Instantiate (bird,Vector3.zero,Quaternion.identity) as GameObject;
 			myBirds[i].transform.localScale = myBirds[i].transform.localScale*birdScale;
 			myBirds[i].transform.parent = transform;

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3371161933034988110}
+  - component: {fileID: 3902352770280142087}
   - component: {fileID: 3371161933028084622}
   m_Layer: 0
   m_Name: BirdsController
@@ -32,6 +33,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3902352770280142087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3371161933034634862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f299546ffcfa2b148af3b1da2fa20a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  birdControl: {fileID: 3371161933028084622}
+  camera1: {fileID: 0}
+  camera2: {fileID: 0}
 --- !u!114 &3371161933028084622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44,12 +60,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35acec13e92dc0846a893a2496fea9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idealNumberOfBirds: 20
-  maximumNumberOfBirds: 40
+  idealNumberOfBirds: 10
+  maximumNumberOfBirds: 20
   currentCamera: {fileID: 0}
-  unspawnDistance: 10
-  highQuality: 1
-  collideWithObjects: 1
+  unspawnDistance: 20
+  highQuality: 0
+  collideWithObjects: 0
   groundLayer:
     serializedVersion: 2
     m_Bits: 4294967295
