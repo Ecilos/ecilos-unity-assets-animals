@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class livingBirdsDemoScript : MonoBehaviour {
+public class livingBirdsInitScript : MonoBehaviour {
   public lb_BirdController birdControl;
   public Camera camera1;
   public Camera camera2;
