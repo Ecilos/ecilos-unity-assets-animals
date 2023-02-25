@@ -16,10 +16,10 @@ To open the project, follow these steps:
 2. In _Unity Hub_, _Add project from disk_ and select cloned repository.
 3. Open the project.
 
-<!-- Named links -->
-[git-lfs]: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
-[unity-dl]: https://unity.com/download
-
 ## Contributing
 
 Before contributing, please read: [CONTRIBUTING.md](CONTRIBUTING.md).
+
+<!-- Named links -->
+[git-lfs]: https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage
+[unity-dl]: https://unity.com/download
