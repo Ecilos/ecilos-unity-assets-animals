@@ -8,9 +8,17 @@ By following this guide, we can ensure that
 the repository remains fast and accessible for everyone,
 and that we are making the most efficient use of our storage space.
 
-## Avatars
+## Audio
 
-When possible, use textures with the high compression (such as JPEG).
+Convert all WAV audio files to Vorbis format (.ogg). E.g.
+
+    ffmpeg -i file.wav file.ogg
+
+Example with specified quality:
+
+    ffmpeg -i file.ogg -codec:a libvorbis -qscale:a 3 file.ogg
+
+See: <https://trac.ffmpeg.org/wiki/TheoraVorbisEncodingGuide>
 
 ## Images
 
