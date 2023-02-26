@@ -65,7 +65,7 @@ MonoBehaviour:
   currentCamera: {fileID: 0}
   unspawnDistance: 20
   highQuality: 0
-  collideWithObjects: 0
+  collideWithObjects: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 4294967295
